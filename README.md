@@ -2,6 +2,8 @@
 
 A simple skin / plugin pair that adds a skin-able Powershell window onto the desktop, using rainmeter.
 
+<p align="center"><img src="https://i.redd.it/7g6ueanvwqh21.gif"></p>
+
 ## Install
 
 To use all the dependencies of this:
