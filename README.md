@@ -17,3 +17,24 @@ To install the skin itself:
 - Move skin/main.ini and reclick.ahk into a new plugin folder (Documents/Rainmeter/Skins/Powershell/ for instance)
 - restart rainmeter
 - edit reclick.ahk to click at the input box. This will depend on your positioning, size, and resolution.
+
+## To Customize
+
+Most of the visual aspects of the skin are controlled by variables:
+```
+[Variables]
+BackgroundColor=0C1620
+InputBackgroundColor=0C1620
+FontColor=F8F2FF
+FontFace="Ubuntu Mono"
+FontSize=10
+PromptFace="Monoid"
+Width=630
+Height=1020
+```
+
+The elements to look at are:
+- `[Background]` is the background panel.
+- `[OutputText]` is the console output.
+- `[MeterSearchLabel]` is the > prompt.
+- `[MeasureSearchInput]` is the input box for console input.
